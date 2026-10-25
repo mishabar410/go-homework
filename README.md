@@ -5,10 +5,11 @@
 | Урок | Тема | Папка |
 |---|---|---|
 | 2 | Типы данных и управление потоком | [lesson-02](lesson-02) |
+| 3 | Функции, указатели и составные типы | [lesson-03](lesson-03) |
 
 ## Как проверить
 
 ```bash
-cd lesson-02
-for d in 0*/; do (cd "$d" && go test ./...); done
+(cd lesson-02 && for d in 0*/; do (cd "$d" && go test ./...); done)
+(cd lesson-03 && go test ./...)
 ```
